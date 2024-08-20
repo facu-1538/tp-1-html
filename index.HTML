@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp1 49936</title>
+    <style>
+            h2{
+                color: green;
+            }
+            h6{
+                color: blueviolet;
+            }
+            table{
+                width: 50%;
+                border-collapse: double;
+                border-style: double;
+            }
+            th,
+            td{
+             border: 1px solid black;
+             padding: 8px;
+             text-align: center;   
+            }
+            tfoot{
+                border-collapse: 2px;
+                font-weight: bold;
+            }
+            header, footer{
+                background-color: gray;
+                color: white;
+                text-align: center;
+            }
+            section{
+                border-style: dashed;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            article{
+                border-collapse: initial;
+                border-color: blue;
+                border-style: dotted;
+                
+            }
+
+    </style>
+</head>
+<body>
+   
+    <header>
+        <h1 id="inicio">Practico HTML</h1>
+    </header>
+
+    <main>
+        <section>
+        <h2 >1. Estructura Basica del Documento HTML</h2>
+        <p>
+            Este documento de HTML tinene un estrucuta basica que incluye la 
+            declaracion de DOCTYPE, siertas etiquetas de metadatos y su titulo  
+        </p>
+        </section>
+        <br>
+        <article>
+         <h2> 2. Encabezados y propiedades del Texto  </h2>
+         <em><h3>Este es un titulo en h3 en cursiva</h3></em> 
+         <h4 style=" font-family: comic sans MS  ;">Este es un titulo en h4 en otra topografia </h4>
+         <u><h5>Este es un titulo en h5 y esta subrayado</h5></u>
+         <h6>Este es un tutilo en h6 en color violeta </h6>
+        </article>   
+        <br>
+        <section>
+        <div> 
+        <h2>3. Divisiones y Agrupaciones de Contenido</h2>
+        <div>
+            <h3>Seccion 1 </h3>
+            <p>Esta parte es de la seccion 1</p>
+        </div>
+        <div>
+            <h3>Seccion 2 </h3>
+            <p>Esta parte es de la seccion 2</p>
+        </div>
+        </section>
+        <br>
+        <article>
+        <div>
+        <h2>4. Enlaces y Listas</h2>
+        <nav>
+            <a href="https://github.com/facu-1538?tab=repositories">Para ver el repositorio en GIT</a>
+        </nav>
+        <p>Mejores Comidad del Mundo</p>
+        <ol>
+            <li>Empanadas</li>
+            <li>Milanesas de Pollo</li>
+            <li>Asado</li>
+            <li>Sanguche de Miga</li>
+        </ol>
+        <p>Algunas Franquicias Historicas</p>
+        <ul >
+            <li>Volver al Futuro </li>
+            <li>La Guerra de las Galaxias </li>
+            <li>Harry Potter</li>
+            <li>Rapido y Furiosos</li>
+        </ul>
+        <p>Enlaces internos a de la Pagina</p>
+        <a href="#inicio">Inicio de la Pagina</a> <br>
+        <a href="#fin">Fin de la pagina</a> <br> <br>
+        </div>
+        </article>  
+        <br>
+        <section> 
+        <div>
+        <h2>5. Elementons Multimedia</h2>
+        <h5>Un momento inolvidabel</h5>
+        <img src="https://th.bing.com/th/id/OIP.q7sfHQeSL7b6B5YehBQa1gHaEv?rs=1&pid=ImgDetMain" 
+        width="260px" height="190px"
+        alt="Es una foto de Messi">
+
+        <video src="VID-20240819-WA0025.mp4"
+         width="200px" height="200px" controls type="video/mp4" >video de algo</video>
+
+         <audio src="Muchachos.mpeg"
+         controls >musica</audio>
+        </div>
+        </section>
+        <br>
+        <article>
+        <div>
+        <h2>6. Tablas</h2>
+        <table >
+            <thead>
+                <tr>
+                    <th>columna 1</th>
+                    <th>columna 2</th>
+                    <th>columna 3</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>fila 1, celda 1</td>
+                    <td>fila 1, celda 2</td>
+                    <td>fila 1, celda 3</td>
+                </tr>
+                <tr>
+                    <td>fila 2, celda 1</td>
+                    <td>fila 2, celda 2</td>
+                    <td>fila 2, celda 3</td>
+                </tr>
+                <tr>
+                    <td>fila 3, celda 1</td>
+                    <td>fila 3, celda 2</td>
+                    <td>fila 3, celda 3</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>total 1</td>
+                    <td>total 2</td>
+                    <td>total 3</td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+        </article>   
+        <br>
+        <section>
+        <div>
+        <h2>7. Formularios y Entradas</h2>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="ejemplo@gmail.com">
+            
+            <label>Nombre</label>
+            <input type="nombre" placeholder="Ingrese su nombre">
+            <br>
+            <label>mensaje</label>
+            <textarea placeholder="Ingrese un mensaje" ></textarea>
+            <br> <br>
+            <button type="submit" >Enviar Formulario</button>
+        </form>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="fin">Echo por Facundo Aracena</p>
+    </footer>
+       
+</body>
+</html>
